@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    position: relative;
+    background-color: #ffffff;
+    color: #fff;
+    padding: 0px;
+}
+
+nav {
+    position: absolute;
+    top: 7%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#wrist{
+    font-size: 32px;
+    left: 25%;
+    color: #ffffff;
+    font-family: 'Righteous', sans-serif;
+}
+nav li {
+    display: inline-block;
+    margin-right: 90px;
+}
+
+nav a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #DAD5D5;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav a:hover {
+    color: #000000; /* Change the color on hover */
+    font-weight: 600;
+    text-shadow: 
+        -1px -1px 0 #ffffff, /* Top-left shadow */
+        1px -1px 0 #ffffff,  /* Top-right shadow */
+        -1px 1px 0 #ffffff,  /* Bottom-left shadow */
+        1px 1px 0 #ffffff;   /* Bottom-right shadow */
+}
