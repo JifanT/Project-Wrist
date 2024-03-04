@@ -366,3 +366,22 @@ nav a:hover {
     border-color: #000000;
     border: 2px solid;
 }
+#about{
+    height: 900px;
+    background-color: #000000;
+    text-align: center;
+}
+.gif{
+    width: 100%;
+    height: 300px;
+}
+.h1-about{
+    font-family: 'Poppins', sans-serif;
+    color: #DAD5D5;
+    padding: 40px;
+}
+.p-about{
+    color: #DAD5D5;
+    font-size: 27px;
+    font-family: 'Montserrat', sans-serif;
+}
