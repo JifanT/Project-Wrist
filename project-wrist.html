@@ -19,6 +19,7 @@
                     <li><a href="#about">About</a></li>
                     <li><a href="#"contact>Contact Us</a></li>
                 </ul>
+                <button id="openModalBtn">Login</button>
             </nav>      
             <div class="image-main-container">
                 <img src="Landing-patek-2.jpg"  alt="Description of the image">
@@ -26,7 +27,9 @@
             <div class="caption">
                 <p class="caption-p">Timeless elegance,</p>
                 <p class="caption-p">Strapped to your wrist.</p>
-                <button class="btn-explore" onclick="alert('Button clicked!')">Explore More</button>
+                <a href="#discover">
+                    <button class="btn-explore" href="#discover">Explore More</button>
+                </a>  
             </div>
         </header>
         <div id="discover">
@@ -89,5 +92,53 @@
                 renowned watchmakers to bring you a selection that reflects both timeless <br>
                 elegance and modern trends. Explore our Online.</p>
         </div>
+        <div id="contact">
+            <div class="contact-container">
+                <h1 class="h1-contact">CONTACT US</h4>
+                <div class="phone-container">
+                    <img class="icon-phone" src="phone-icon-2.jpg" alt="phone icon">
+                    <p class="p-number">+91 9497477771</p>
+                </div>
+                <div class="mail-container">
+                    <img class="icon-mail" src="mail-icon.jpg" alt="mail icon">
+                    <p class="p-mail">wristofficial@gmail.com</p>
+                </div>
+                <div class="insta-container">
+                    <img class="icon-insta" src="insta-icon.jpg" alt="insta icon">
+                    <p class="p-insta">wrist_store</p>
+                </div>
+                <div class="fb-container">
+                    <img class="icon-fb" src="facebook -icon.jpg" alt="facebook icon">
+                    <p class="p-fb">Wrist Official</p>
+                </div>
+            </div>
+            <div class="connect-container">
+                <h1 class="h1-connect">CONNECT WITH US</h4>
+                <div class="login-container">
+                    <div class="login-box">
+                        <form action="your-login-endpoint" method="post">
+                            <input type="text" name="username" placeholder="Name" required>
+                            <input type="text" name="password" placeholder="E-mail" required>
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>    
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2024 WRIST is the property of JIFAN THOTTUNGAL</p>
+        </div>
+        <div id="loginModal" class="modal">
+            <div class="modal-content">
+              <span class="close" id="closeModalBtn">&times;</span>
+              <form class="login-form-modal">
+                <h2 class="h2-modal">Login</h2>
+                <input type="text" id="username" name="username" placeholder="Username" required>
+                <input type="password" id="password" name="password" placeholder="Password">
+                <button type="submit" id="modal-btn">Login</button>
+              </form>
+            </div>
+        </div>
+        <script type="text/javascript" src="project-wrist.js"></script>
     </body>
 </html>
