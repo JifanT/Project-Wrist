@@ -130,13 +130,24 @@
         </div>
         <div id="loginModal" class="modal">
             <div class="modal-content">
-              <span class="close" id="closeModalBtn">&times;</span>
-              <form class="login-form-modal">
-                <h2 class="h2-modal">Login</h2>
-                <input type="text" id="username" name="username" placeholder="Username" required>
-                <input type="password" id="password" name="password" placeholder="Password">
-                <button type="submit" id="modal-btn">Login</button>
-              </form>
+                <span class="close" id="closeModalBtn">&times;</span>
+                <div class="login-container">
+                    <form id="login-form">
+                        <h2>Login</h2>
+                        <input type="text" placeholder="Username" required>
+                        <input type="password" placeholder="Password" required>
+                        <p class="signup-link">Don't have an account? <span id="signup-link">Sign Up</span></p>
+                        <button type="submit">Login</button>
+                    </form>
+                    <form id="signup-form" class="hidden">
+                        <h2>Sign Up</h2>
+                        <input type="text" placeholder="Username" required>
+                        <input type="email" placeholder="Email" required>
+                        <input type="password" placeholder="Password" required>
+                        <p class="switch-form">Already have an account? <span id="login-link">Login</span></p>
+                        <button type="submit">Sign Up</button>
+                    </form>
+                </div>
             </div>
         </div>
         <script type="text/javascript" src="project-wrist.js"></script>
